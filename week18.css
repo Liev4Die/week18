@@ -2,11 +2,11 @@ body{
 	font-family: 'Archivo', sans-serif;
 }
 
-nav{
+.grid nav{
 	background-color: #FFD700;
 }
 
-ul {
+.grid ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ ul {
   margin-right: 200px;
 }
 
-li{
+.grid li{
 	display: inline-block;
 	margin: 1em 4em 1em 0em;
 }
@@ -28,7 +28,7 @@ li{
 	display: inline-block;
 }
 
-li a {
+.grid li a{
   display: block;
   color: black;
   text-align: center;
