@@ -1,9 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	font-family: 'Archivo', sans-serif;
 }
 
 .grid nav{
 	background-color: #FFD700;
+	width: 100%;
 }
 
 .grid nav ul{
@@ -44,43 +50,23 @@ body{
 }
 
 .logo img{
-	width: 300px;
+	width: 450px;
 	height: 200px;
 }
 
 .grid2nav{
-	margin: 300px;
-	display: inline-block;	
-}
-
-.grid2nav nav ul{
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
+	margin: 60px 0px 0px 200px;
+	display: inline-block;
 }
 
 .grid2nav nav ul li{
-	width: 200px;
-	height: 40px;
-	float: left;	
+	float: left;
+	list-style: none;
+	padding: 24px;
 }
 
 .grid2nav nav ul li a{
 	text-decoration: none;
 	color: black;
-	font-size: 1.2em;
-}
-
-.grid2nav nav ul li ul li{
-	display: none;
-	margin: 10px;
-}
-
-.grid2nav nav ul li ul li a{
-	display: block;
-	font-size: 1em;
-}
-
-.grid2nav nav ul li:hover ul li{
-	display: block;
+	font-size: 20px;
 }
