@@ -179,7 +179,7 @@ button{
 	top: 1460px;
 }
 
-.youtube{
-	width: 100%;
-	align-self: center;
+iframe{
+	width: 80%;
+	margin: 0 auto;
 }
