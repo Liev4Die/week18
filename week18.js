@@ -1,0 +1,1 @@
+var menuphone = document.getElementById('menu-phone');

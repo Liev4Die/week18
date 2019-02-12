@@ -34,6 +34,10 @@ body{
   font-size: 1.1em;
 }
 
+.menu-phone{
+	display: none;
+}
+
 .logo{
 	float: left;
 	display: inline;
@@ -191,4 +195,54 @@ footer{
 	text-align: center;
 	height: 50px;
 	font-size: 30px;
+}
+
+@media (max-width: 600px){
+
+.menu-phone{
+	display: block;
+	background-color: #FFD700;
+	width: 600px;
+	height: 70px;
+}
+
+.menu-phone a{
+	font-size: 40px;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	left: 20px;
+	top: 5px;
+	padding: 5px;
+}
+
+.grid{
+	width: 600px;
+	display: none;
+}
+
+.grid nav{
+	background-color: #FFD700;
+	width: 100%;
+}
+
+.grid nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.grid li{
+	display: inline;
+}
+
+.grid li a{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1em;
+}
 }
